@@ -1,3 +1,7 @@
+package cars;
+
+import cars.Car;
+
 public class Toyota extends Car {
     private String petrol;
 
@@ -23,7 +27,7 @@ public class Toyota extends Car {
 
     @Override
     public String toString() {
-        return "petrol:" + petrol + "\n" +
-                super.toString();
+        return super.toString()+"\n"+
+                "petrol:" + petrol;
     }
 }

@@ -1,3 +1,7 @@
+package cars;
+
+import cars.Car;
+
 public class Lexus extends Car {
     private String engine;
 

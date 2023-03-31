@@ -1,3 +1,7 @@
+package cars;
+
+import cars.Car;
+
 public class BMW extends Car {
     private String speed;
 

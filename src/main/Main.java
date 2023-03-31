@@ -1,3 +1,7 @@
+package main;
+
+import cars.*;
+
 public class Main {
     public static void main(String[] args) {
         Toyota[] toyota = new Toyota[]{new Toyota("Toyota", "camry",
@@ -16,8 +20,8 @@ public class Main {
             System.out.println(bmw1);
         }
         System.out.println();
-        Lexus[] lexus = new Lexus[]{new Lexus("Lexus", "GX 470", "Red", 2022,
-                4, "GRP"), new Lexus("Lexus", "LX 570", "Black", 2023,
+        Lexus[] lexus = new Lexus[]{new Lexus("cars.Lexus", "GX 470", "Red", 2022,
+                4, "GRP"), new Lexus("cars.Lexus", "LX 570", "Black", 2023,
                 4, "HRT")};
         for (Lexus lexus1 : lexus) {
             System.out.println(lexus1);

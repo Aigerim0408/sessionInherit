@@ -1,3 +1,7 @@
+package cars;
+
+import cars.Car;
+
 public class Honda extends Car {
     public Honda(String marca, String model, String colour, int productionDate, int volume) {
         super(marca, model, colour, productionDate, volume);
